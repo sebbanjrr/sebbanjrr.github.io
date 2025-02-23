@@ -1,113 +1,53 @@
-/* Estilos generales */
 body {
-    font-family: 'Roboto', sans-serif; /* Fuente profesional */
-    background-color: #f7f7f7;  /* Fondo gris suave */
+    background-color: #1e1e1e;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
     margin: 0;
     padding: 0;
-    color: #333;
 }
 
-header {
-    background-color: #2C3E50;  /* Fondo oscuro profesional */
-    color: white;
-    padding: 40px 20px;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para un toque moderno */
-}
-
-header h1 {
-    font-size: 36px;
-    font-weight: 600;
-    margin-bottom: 10px;
-    letter-spacing: 1px;  /* Espaciado de letras para más elegancia */
-}
-
-header p {
-    font-size: 18px;
-    font-weight: 300;  /* Texto más liviano y profesional */
-    margin-bottom: 20px;
-}
-
-/* Sección de Servicios */
-#services {
-    margin: 50px auto;
-    width: 80%;
-    text-align: center;
-}
-
-#services h2 {
-    font-size: 28px;
-    font-weight: 500;
-    color: #2C3E50;
-    margin-bottom: 30px;
-}
-
-.service-card {
-    background-color: white;
+.container {
+    max-width: 900px;
+    margin: auto;
     padding: 20px;
-    margin: 20px 0;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* Más sombra para destacar */
-    border-radius: 8px;
-    text-align: center;
-    transition: transform 0.3s ease-in-out;  /* Efecto al pasar el ratón */
 }
 
-.service-card:hover {
-    transform: translateY(-5px);  /* Efecto hover para hacerlo más interactivo */
-}
-
-.service-card h3 {
-    font-size: 24px;
-    color: #34495E;
-    font-weight: 600;
-    margin-bottom: 15px;
-}
-
-.service-card p {
-    font-size: 16px;
-    color: #7F8C8D;
-    line-height: 1.5;
-}
-
-/* Sección de Contacto */
-#contact {
-    background-color: #2C3E50;
-    color: white;
-    padding: 40px 20px;
-    text-align: center;
-}
-
-#contact h2 {
-    font-size: 28px;
+h1 {
+    font-size: 2.5em;
     margin-bottom: 20px;
-    font-weight: 500;
 }
 
-#contact ul {
-    list-style: none;
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.info, .offer {
+    width: 45%;
+    text-align: left;
+}
+
+.image img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+ul {
+    list-style-type: none;
     padding: 0;
 }
 
-#contact ul li {
-    font-size: 18px;
+li {
     margin: 10px 0;
-    font-weight: 300;
 }
 
-/* Footer */
 footer {
-    background-color: #2C3E50;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);  /* Sombra en el footer */
-}
-
-footer p {
-    font-size: 14px;
-    font-weight: 300;
-    margin: 0;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: black;
 }
