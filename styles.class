@@ -1,7 +1,7 @@
 /* Estilos generales */
 body {
-    font-family: 'Roboto', sans-serif; /* Fuente más profesional */
-    background-color: #f4f4f9;  /* Fondo más claro y elegante */
+    font-family: 'Roboto', sans-serif; /* Fuente profesional */
+    background-color: #f7f7f7;  /* Fondo gris suave */
     margin: 0;
     padding: 0;
     color: #333;
