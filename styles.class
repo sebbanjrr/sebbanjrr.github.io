@@ -1,26 +1,31 @@
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Roboto', sans-serif; /* Fuente más profesional */
+    background-color: #f4f4f9;  /* Fondo más claro y elegante */
     margin: 0;
     padding: 0;
     color: #333;
 }
 
 header {
-    background-color: #2d2d2d;
+    background-color: #2C3E50;  /* Fondo oscuro profesional */
     color: white;
-    padding: 30px 20px;
+    padding: 40px 20px;
     text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para un toque moderno */
 }
 
 header h1 {
     font-size: 36px;
+    font-weight: 600;
     margin-bottom: 10px;
+    letter-spacing: 1px;  /* Espaciado de letras para más elegancia */
 }
 
 header p {
     font-size: 18px;
+    font-weight: 300;  /* Texto más liviano y profesional */
+    margin-bottom: 20px;
 }
 
 /* Sección de Servicios */
@@ -32,39 +37,50 @@ header p {
 
 #services h2 {
     font-size: 28px;
+    font-weight: 500;
+    color: #2C3E50;
     margin-bottom: 30px;
 }
 
 .service-card {
     background-color: white;
     padding: 20px;
-    margin: 10px 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* Más sombra para destacar */
     border-radius: 8px;
     text-align: center;
+    transition: transform 0.3s ease-in-out;  /* Efecto al pasar el ratón */
+}
+
+.service-card:hover {
+    transform: translateY(-5px);  /* Efecto hover para hacerlo más interactivo */
 }
 
 .service-card h3 {
     font-size: 24px;
-    color: #2d2d2d;
+    color: #34495E;
+    font-weight: 600;
+    margin-bottom: 15px;
 }
 
 .service-card p {
     font-size: 16px;
-    color: #666;
+    color: #7F8C8D;
+    line-height: 1.5;
 }
 
 /* Sección de Contacto */
 #contact {
-    background-color: #2d2d2d;
+    background-color: #2C3E50;
     color: white;
-    padding: 30px 20px;
+    padding: 40px 20px;
     text-align: center;
 }
 
 #contact h2 {
     font-size: 28px;
     margin-bottom: 20px;
+    font-weight: 500;
 }
 
 #contact ul {
@@ -75,15 +91,23 @@ header p {
 #contact ul li {
     font-size: 18px;
     margin: 10px 0;
+    font-weight: 300;
 }
 
 /* Footer */
 footer {
-    background-color: #2d2d2d;
+    background-color: #2C3E50;
     color: white;
     padding: 20px;
     text-align: center;
-    position: absolute;
-    width: 100%;
+    position: relative;
     bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);  /* Sombra en el footer */
+}
+
+footer p {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
 }
